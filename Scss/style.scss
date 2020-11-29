@@ -1,45 +1,17 @@
 
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
+ @import"colors";
+ @import "reset"; 
 
-* {
-    box-sizing: border-box;
 
-}
-
-html, body {
-    margin: 0;
-    $font-primary: "Roboto", sans-serif;
+ html, body {
      font-family: $font-primary;
  }
-.h4 {
-    $myColor: green;
-    color: $myColor;
-}
-  .container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    align-items: center;
-}
 
-@media (min-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-}
 
-@media (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1140px;
-    }
-}
-
+ h4 {
+  color: $myColor;
+  margin: auto;
+ }
+ 
