@@ -1,17 +1,15 @@
 
 
  @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
- @import"colors";
- @import "reset"; 
+ @import"./colors";
+ @import "./reset"; 
+ @import "./container"; 
+ @import "./variables"; 
 
-
- html, body {
-     font-family: $font-primary;
- }
-
-
+ 
+ 
+ 
  h4 {
   color: $myColor;
-  margin: auto;
  }
  
